@@ -73,6 +73,10 @@ public class LogView extends ListView<LogRecord> {
     public DoubleProperty refreshRateProperty() {
         return refreshRate;
     }
+    
+    public LogView(LogAppender logAppender) {
+    	this(logAppender.getLogger());
+    }
 
     public LogView(Logger logger) {
         getStyleClass().add("log-view");		// this should be styled with styles specified for .log-view class
