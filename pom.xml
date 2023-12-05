@@ -17,7 +17,7 @@
 	or upgrade to Java 11+ and use openJFX as Maven dependency
 -->
     <jdk.version>1.8</jdk.version>
-    <logback-classic.version>1.2.3</logback-classic.version>
+    <logback-classic.version>1.2.13</logback-classic.version>
   </properties>
 
   <dependencies>
